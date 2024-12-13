@@ -1,7 +1,9 @@
 # VidyaCipher: Revolutionizing Financial Security with Cryptographic Intelligence
 ### Cipher Generation
-![Cipher Generation](https://github.com/user-attachments/assets/e4a802e7-83ce-4f10-aef2-11dac86fa2cf)
+![Cipher Generation](https://github.com/user-attachments/assets/b843b816-e95e-4e2b-96cc-5940df0cd53d)
+
 ### Correct Cipher Validation
-![Correct Cipher](https://github.com/user-attachments/assets/11c7ea20-f383-4ca9-a1c9-86f1765585b3)
+![Correct Cipher](https://github.com/user-attachments/assets/286ead56-a923-4f11-afa4-04ebe61cb15c)
+
 ### Incorrect Cipher Validation
-![Incorrect Cipher](https://github.com/user-attachments/assets/310ba0c5-768b-4979-ad2b-b136f4a08b53)
+![Incorrect Cipher](https://github.com/user-attachments/assets/4c1faafa-aa4b-482e-93c6-ecfc458be569)
