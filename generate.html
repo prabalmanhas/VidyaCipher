@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h3>Generate Vidya Cipher Number</h3>
+            </div>
+            <div class="card-body">
+                <form method="POST" action="{{ url_for('generate') }}">
+                    <div class="mb-3">
+                        <label for="base_number" class="form-label">Base Number</label>
+                        <input type="text" class="form-control" id="base_number" name="base_number" required>
+                        <div class="form-text">Enter the number you want to encrypt (e.g., credit card number)</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Generate Cipher</button>
+                </form>
+                
+                {% if vidya_number %}
+                <div class="mt-4">
+                    <h4>Your Vidya Cipher Number:</h4>
+                    <div class="alert alert-success">
+                        <code>{{ vidya_number }}</code>
+                    </div>
+                    <p>Please save this number securely for future validation.</p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
