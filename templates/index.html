@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Welcome to Vidya Cipher Tool</h2>
+                <p class="card-text">
+                    This is a blockchain-based tool for encryption and validation of sensitive numbers like credit card numbers.
+                    The system uses AES-GCM encryption and stores each encryption in a blockchain for secure validation.
+                </p>
+                
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Generate Vidya Cipher</h5>
+                                <p class="card-text">Encrypt your base number and store it in the blockchain.</p>
+                                <a href="{{ url_for('generate') }}" class="btn btn-primary">Go to Generator</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Validate Vidya Cipher</h5>
+                                <p class="card-text">Validate your previously generated cipher number.</p>
+                                <a href="{{ url_for('validate') }}" class="btn btn-success">Go to Validator</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-4">
+                    <a href="{{ url_for('view_blockchain') }}" class="btn btn-outline-secondary">View Blockchain</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
