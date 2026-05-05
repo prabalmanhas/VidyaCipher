@@ -1,3 +1,4 @@
+[![Research Paper](https://img.shields.io/badge/Research%20Paper-Read-green?style=for-the-badge)](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003540298-23/vidya-cipher-prabal-manhas-joydeep-chandra-hariharan)
 ![IMG 1 (1)](https://github.com/user-attachments/assets/d5f5273c-e9ef-4a4c-a367-e57878f4e4cb)
 ![IMG 1 (2)](https://github.com/user-attachments/assets/ae9347be-f247-4882-84db-00cf39121ba1)
 ![IMG 1 (3)](https://github.com/user-attachments/assets/68fed38e-cb09-47eb-96b0-8c8101644e12)
